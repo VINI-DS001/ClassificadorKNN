@@ -74,10 +74,7 @@ O conjunto de dados utilizado para a extração de características para o trein
  - [Dataset: Shoe vs Sandal vs Boot](https://www.kaggle.com/datasets/hasibalmuzdadid/shoe-vs-sandal-vs-boot-dataset-15k-images)
  - [Imagens de Teste](https://unsplash.com/)
 
-![Imagem do dataset Shoe](Shoe vs Sandal vs Boot Dataset/Shoe/Shoe (1).jpg)
-
-![Imagem do dataset Sandal](Shoe vs Sandal vs Boot Dataset/Sandal/Sandal (1).jpg)
-
-![Imagem do dataset Boot](Shoe vs Sandal vs Boot Dataset/Boot/boot (1).jpg)
-
 ## Vídeos
+
+ - [Imagens do dataset e Extração de características](https://drive.google.com/file/d/1NCOlwZpe5znfT9WJas4aFTB9go7RO8w1/view?usp=sharing)
+ - [Execução do KNN](https://drive.google.com/file/d/1Y7jWFqEBX8ZKeKQPaVkPLwYS9v84BhsQ/view?usp=sharing)
