@@ -1,5 +1,7 @@
 # Classificador KNN para Detecção de Imagens
 
+Equipe: Felipe Brasileiro, Felipe Leão, Luan Machado, Vinícius Souza
+
 Este repositório contém os códigos e documentação do projeto final da Unidade 01, no qual treinamos um classificador K-Nearest Neighbors (K-NN) para classificação de imagens com base em suas características. A tarefa envolve a extração de características das imagens, oriundas de datasets, e a implementação do classificador K-NN.
 
 ## Índice
@@ -9,7 +11,6 @@ Este repositório contém os códigos e documentação do projeto final da Unida
 - [Treinamento e Escolha dos Algoritmos](#treinamento-e-escolha-dos-algoritmos)
     - [Extração de Características](#extração-de-características)
     - [Implementação do K-NN](#implementação-do-k-nn)
-    - [Testes e Resultados](#testes-e-resultados)
 - [Conjunto de Dados](#conjunto-de-dados)
 - [Vídeos](#vídeos)
 
@@ -62,10 +63,6 @@ Para a extração de características das imagens, utilizamos 3 datasets distint
 ### Implementação do K-NN
 
 Após extrair as características das imagens, treinamos o algoritmo **K-NN**. O K-NN é um classificador simples e eficiente, que funciona encontrando os "K" vizinhos mais próximos de uma amostra e utilizando a classe predominante entre eles como a predição final.
-
-### Testes e Resultados
-
-Testamos o modelo com diferentes valores de K (3, 5, 7) e o melhor desempenho foi obtido com **K=5**. A acurácia final do classificador no conjunto de testes foi de **90%**, o que mostra um bom desempenho para o problema de classificação de imagens utilizando o K-NN.
 
 ## Conjunto de Dados
 
