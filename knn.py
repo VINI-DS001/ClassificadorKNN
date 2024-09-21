@@ -46,7 +46,7 @@ def classificar_imagens_teste(test_path):
             print(f"Imagem {file_name} classificada como: {pred_class}")
 
 # Caminho para a pasta de imagens de teste (substitua pelo caminho da sua pasta)
-test_images_path = "C:/Users/vinid/Downloads/knn/Imagens de Teste"
+test_images_path = "Imagens de Teste"
 
 # Classifica as imagens de teste
 classificar_imagens_teste(test_images_path)

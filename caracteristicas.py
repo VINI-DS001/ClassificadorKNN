@@ -43,9 +43,9 @@ def extrair_caracteristicas(dataset_path):
 
 # Caminho dos datasets (substitua pelos seus caminhos locais)
 datasets = {
-    "Boot": "C:/Users/vinid/Downloads/knn/Shoe vs Sandal vs Boot Dataset/Boot",
-    "Sandal": "C:/Users/vinid/Downloads/knn/Shoe vs Sandal vs Boot Dataset/Sandal",
-    "Shoe": "C:/Users/vinid/Downloads/knn/Shoe vs Sandal vs Boot Dataset/Shoe"
+    "Boot": "Shoe vs Sandal vs Boot Dataset/Boot",
+    "Sandal": "Shoe vs Sandal vs Boot Dataset/Sandal",
+    "Shoe": "Shoe vs Sandal vs Boot Dataset/Shoe"
 }
 
 # Inicializa listas para armazenar todas as características e labels

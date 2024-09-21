@@ -2,7 +2,7 @@
 
 Equipe: Felipe Brasileiro, Felipe Leão, Luan Machado, Vinícius Souza
 
-Este repositório contém os códigos e documentação do projeto final da Unidade 01, no qual treinamos um classificador K-Nearest Neighbors (K-NN) para classificação de imagens com base em suas características. A tarefa envolve a extração de características das imagens, oriundas de datasets, e a implementação do classificador K-NN.
+Este repositório contém os códigos e documentação do projeto final da Unidade 01, no qual treinamos um classificador K-Nearest Neighbors (K-NN) para classificação de imagens com base em suas características. A tarefa envolve a extração de características das imagens, oriundas de datasets, a implementação do classificador K-NN e a realização de testes com o classificador treinado.
 
 ## Índice
 - [Descrição do Projeto](#descrição-do-projeto)
@@ -12,6 +12,7 @@ Este repositório contém os códigos e documentação do projeto final da Unida
     - [Extração de Características](#extração-de-características)
     - [Implementação do K-NN](#implementação-do-k-nn)
 - [Conjunto de Dados](#conjunto-de-dados)
+- [Imagens](#imagens)
 - [Vídeos](#vídeos)
 
 ## Descrição do Projeto
@@ -45,7 +46,7 @@ Para rodar o projeto localmente:
     pip install scikit-learn
     ```
 
-3. Execute o arquivo de extração de caracteristicas e em seguida execute o script de treinamento do KNN:
+3. Execute o script de extração de caracteristicas e em seguida execute o script de treinamento do KNN:
     ```bash
     python caracteristicas.py
     ```
@@ -58,7 +59,7 @@ Para rodar o projeto localmente:
 
 ### Extração de Características
 
-Para a extração de características das imagens, utilizamos 3 datasets distintos, cada um com 2 mil imagens de calçados, sapatos, botas e sandalias, com dimensões 136 X 102. Através destes datasets foi possível extrair características para treinar o classificador KNN.
+Para a extração de características das imagens, utilizamos 3 datasets distintos, cada um com 2 mil imagens de calçados, divididos nas seguintes categorias: sapatos, botas e sandalias. Através destes datasets foi possível extrair características para treinar o classificador KNN.
 
 ### Implementação do K-NN
 
@@ -66,12 +67,29 @@ Após extrair as características das imagens, treinamos o algoritmo **K-NN**. O
 
 ## Conjunto de Dados
 
-O conjunto de dados utilizado para a extração de características para o treinamento do K-NN contém 6 mil imagens de três categorias, botas, sapatos e sandalias. Para a realização dos testes foram escolhidas imagens aleatórias que se encaixassem nessa categoria, para verificar a precisão do K-NN.
+O conjunto de dados original utilizado para a extração de características para o treinamento do K-NN contém 15 mil imagens de três categorias, botas, sapatos e sandalias, porém, por questões de limitação, foram utilizados apenas 6 mil imagens. Para a realização dos testes foram escolhidas imagens aleatórias que se encaixassem nessa categoria, para verificar a precisão do K-NN.
 
  - [Dataset: Shoe vs Sandal vs Boot](https://www.kaggle.com/datasets/hasibalmuzdadid/shoe-vs-sandal-vs-boot-dataset-15k-images)
  - [Imagens de Teste](https://unsplash.com/)
 
-## Vídeos
+## Imagens
 
+### Exemplo de imagem do dataset de Botas
+<p align="center">
+    <img width="470" src="Shoe vs Sandal vs Boot Dataset/Boot/boot (1).jpg">
+</p>
+
+### Exemplo de imagem do dataset de Sandalias
+<p align="center">
+    <img width="470" src="Shoe vs Sandal vs Boot Dataset/Sandal/Sandal (1).jpg">
+</p>
+
+### Exemplo de imagem do dataset de Sapatos
+<p align="center">
+    <img width="470" src="Shoe vs Sandal vs Boot Dataset\Shoe\Shoe (1).jpg">
+</p>
+
+## Vídeos
+ - [Apresentação completa do projeto](https://drive.google.com/file/d/1H64wR_7X7vWWlNHjoC2lJqUN-X8-NA-X/view?usp=sharing)
  - [Imagens do dataset e Extração de características](https://drive.google.com/file/d/1NCOlwZpe5znfT9WJas4aFTB9go7RO8w1/view?usp=sharing)
  - [Execução do KNN](https://drive.google.com/file/d/1Y7jWFqEBX8ZKeKQPaVkPLwYS9v84BhsQ/view?usp=sharing)
